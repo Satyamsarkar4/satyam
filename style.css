@@ -1,0 +1,1155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: raleway,sans-serif;
+}
+.body{
+    background-color:rgba(255, 255, 255, 0.664);
+}
+.calllogo_forcontact{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    top: 54%;
+    border-radius: 50px;
+    right: 0%;
+    display: flex;
+    background-color: #0F385F;
+}
+.whatsapplogo{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    top: 60%;
+    border-radius: 50px;
+    right: 0%;
+    display: flex;
+    background-color: #0F385F;
+}
+/* NAVBAR */
+.nav{
+    height: 88px;
+    width: 98%;
+    background-color: #0F385F;
+    border-radius: 20px;
+    margin:20px;
+    display: flex;
+    align-items: center;
+}
+
+/* NAVLOGO */
+.logo{
+   height: 190px;
+   width: 190px;
+   background-image: url("amity.png");
+   background-size: 100% 100%;
+   margin-left: 10px;
+   cursor: pointer;
+}
+
+/* NAV-OPTION */
+.option{
+    height:88px;
+    width: 80%;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white;
+}
+.program{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: 650;
+    cursor: pointer;
+    font-size: small;
+    font-weight: 50;
+
+}
+.icon1{
+    font-size: 20px;
+    padding-top: 8px;
+    padding-left:2px;
+    font-size: small;
+}
+.career_service{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: 650;
+    cursor: pointer;
+    font-size: small;
+    font-weight: 50;
+}
+.advantage{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: 650;
+    cursor: pointer;
+    font-size: small;
+    font-weight: 50;
+}
+.search_icon{
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    background-color: #115ca188;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.call_us{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: #FFC907;
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0F385F;
+    cursor: pointer;
+   
+}
+.student_login{
+    height: 40px;
+    width: 180px;
+    border-radius: 25px;
+    border:1px solid white;
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+}
+.apply_now{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: #FFC907;
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0F385F;
+    cursor: pointer;
+}
+
+/* PROGRAM HOVER */
+.program:hover{
+    border-bottom: 5px solid  #FFC907;
+}
+
+/* CAREER SERVICE HOVER */
+.career_service:hover{
+    border-bottom: 5px solid  #FFC907; 
+} 
+
+/* ADVANTAGES HOVER */
+.advantage:hover{
+    border-bottom: 5px solid  #FFC907;
+}
+
+/* STUDENT LOGIN HOVER */
+.student_login:hover{
+    background-color: white;
+    color:#0F385F;
+}
+
+/* CONTAINER */
+.newsbar{
+    height: 40px;
+    width: 97%;
+    margin: 20px;
+    background-color: #FFC907 ;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTAINER TEXT */
+.cont_text{
+    font-weight: 650;
+}
+
+/* HERO SECTOIN */
+.slide{
+    height: 500px;
+    width: 97%;
+    margin: 20px;
+}
+
+/* HERO IMG1 */
+.slide_img1{
+    height: 600px;
+    width: 98%;
+    margin: 20px;
+    background-image: url("hero1.jpg");
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+/* HERO INNER BOX */
+.inner_box1{
+    height: 220px;
+    width: 500px;
+    border-radius: 25px;
+    position:absolute;
+    top:322px;
+    left: 110px;
+    background-color: rgba(255, 255, 255, 0.774);
+    box-shadow: 2px 2px 7px grey;
+}
+.adm_opn{
+    font-size:25px;
+    padding-top: 15px;
+    color:#0F385F;
+    padding-left: 10px;
+}
+.career_today{
+    font-size:25px;
+    color:#0F385F;
+    padding-left: 10px;
+    padding-top: 5px; 
+}
+
+/* INNER OPTION */
+.inner1_opt{
+    height: 80px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.mba{
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 2px 7px grey;
+    color:#0F385F;
+    font-weight: 650;
+    cursor: pointer;
+}
+.bba{
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 2px 7px grey;
+    color:#0F385F;
+    font-weight: 650;
+    cursor: pointer;
+}
+.mca{
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 2px 7px grey;
+    color:#0F385F;
+    font-weight: 650;
+    cursor: pointer;
+}
+.bca{
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 2px 7px grey;
+    color:#0F385F;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+/* BUTTON1 */
+button{
+    width:150px;
+    height: 50px;
+    border-radius: 25px;
+    border:2px solid #0F385F;
+    background-color: #FFC907;
+    margin-left: 20px;
+    color:#0F385F;
+    font-weight: 600;
+    cursor: pointer;
+}
+/*4boxes*/
+.container1{
+    height: 130px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 150px;
+    margin-left: 12px;
+    justify-content: space-evenly;
+}
+.box01{
+    height: 160px;
+    width: 320px;
+    display: flex;
+    justify-items: center;
+    background-color: #FFC907;
+    margin-left: 6px;
+    color: #1A325D;
+    border-radius: 30px;
+}.box02{
+    height: 160px;
+    width: 320px;
+    display: flex;
+    justify-items: center;
+    background-color: #4A9C61;
+    margin-left: 6px;
+    color: white;
+    border-radius: 30px;
+}
+.box03{
+    height: 160px;
+    width: 320px;
+    display: flex;
+    justify-items: center;
+    background-color: #4194F4;
+    margin-left: 6px;
+    color: white;
+    border-radius: 30px;
+}
+.box04{
+    height: 160px;
+    width: 320px;
+    display: flex;
+    justify-items: center;
+    background-color: #FF3E6C;
+    margin-left: 6px;
+    color: white;
+    border-radius: 30px;
+}
+/*image in boxes(01, 02 ,03, 04)*/ 
+.boximg1{
+    height: 160px;
+    width: 320px;
+    background-image:url(boximg1.png);
+    background-size: 100% 100%;
+}
+.boximg2{
+    height: 160px;
+    width: 320px;
+    background-image:url(boximage2.png);
+    background-size: 100% 100%;
+}
+.boximg3{
+    height: 160px;
+    width: 320px;
+    background-image:url(boximage3.png);
+    background-size: 100% 100%;
+}
+.boximg4{
+    height: 160px;
+    width: 320px;
+    background-image:url(boximage4.png);
+    background-size: 100% 100%;
+}
+/*Recogonisations of big companies and govt*/
+.carebox{
+    height: 400px;
+    width: 95%;
+    background-color: white;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+.headinglr{
+    height: 5px;
+    width: 95%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.organisationlist{
+    height: 50px;
+    width: 95%;
+    background-color: white;
+}
+.heading1{
+    align-self: center;
+    width: 95%;
+}
+.headinglr{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px; 
+    color: #1a325d;
+    justify-content: left;
+}
+.rightpara{
+    text-align: right;
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+}
+/*heading under parts*/
+.row1{
+    height: 120px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex   ;
+}
+/* 3 boxes*/
+.card1{
+    height: 120px;
+    width: 400px;
+    margin-left: 0%;
+    display: flex;
+}
+.card2{
+    height: 120px;
+    width: 400px;
+    margin-left: 50px;
+    display: flex;
+}
+.card3{
+    height: 120px;
+    width: 400px;
+    margin-left: 50px;
+    display: flex;
+}
+.card4{
+    height: 120px;
+    width: 400px;
+    margin-left: 50px;
+    display: flex;
+}
+/* 1st row 3 boxes logos*/
+.logo1{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url(1stcomplogo.JPG);
+    background-size: 100% 100%;
+}
+.logo2{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url(2ndcomplogo.JPG);
+    background-size: 100% 100%;
+}
+.logo3{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url(3rdcomplogo.JPG);
+    background-size: 100% 100%;
+}
+/* 1st row text in cards*/
+.lefttext1{
+    margin-top: 30px;
+    margin-left: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lefttext2{
+    margin-top: 30px;
+    margin-left: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lefttext3{
+    margin-top: 30px;
+    margin-left: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*row 2*/
+.row2{
+    height: 120px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex   ;
+}
+/* 3 boxes*/
+.card4{
+    height: 120px;
+    width: 400px;
+    margin-left: 0%;
+    display: flex;
+}
+.card5{
+    height: 120px;
+    width: 400px;
+    margin-left: 50px;
+    display: flex;
+}
+.card6{
+    height: 120px;
+    width: 400px;
+    margin-left: 50px;
+    display: flex;
+}
+/* 1st row 3 boxes logos*/
+.logo4{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url(4thcomplogo.JPG);
+    background-size: 100% 100%;
+}
+.logo5{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url(5thcomplogo.JPG);
+    background-size: 100% 100%;
+}
+.logo6{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url(6thcomplogo.JPG);
+    background-size: 100% 100%;
+}
+/* 1st row text in cards*/
+.lefttext4{
+    margin-top: 30px;
+    margin-left: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lefttext5{
+    margin-top: 30px;
+    margin-left: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lefttext6{
+    margin-top: 30px;
+    margin-left: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* WHY CHOOSE AMITY ONLINE*/
+.whitebox{  
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 95%;
+    border-radius: 20px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.144);
+}
+.wcao{
+    height: 600px;
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.heading2r{
+    height: 5px;
+    width: 95%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.organisationlist{
+    height: 50px;
+    width: 95%;
+    background-color: white;
+}
+.heading2{
+    align-self: center;
+    width: 95%;
+}
+.heading2r{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px; 
+    color: #1a325d;
+    justify-content: left;
+}
+.rightpara2{
+    text-align: left;
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+}
+.row1st{
+    height: 200px;
+    width: 95%;
+    margin-top: 10px;
+    display: flex;
+    background-color: yellow;
+}
+/*ROWS OF 2ND DIV (WHY WE NEED AMITY ONLINE)*/
+.row1nd{
+    height: 180px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+.row2nd{
+    height: 180px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+/* ALL CARDS*/
+.cards1{
+    height: 180px;
+    width: 300px;
+    margin-left: 0%;
+}
+.cards2{
+    height: 180px;
+    width: 300px;
+    margin-left: 30px;
+}
+.cards3{
+    height: 180px;
+    width: 300px;
+    margin-left: 30px;
+}
+.cards4{
+    height: 180px;
+    width: 300px;
+    margin-left: 30px;
+}
+.cards5{
+    height: 180px;
+    width: 300px;
+    margin-left: 0%;
+}
+.cards6{
+    height: 180px;
+    width: 300px;
+    margin-left: 30px;
+}
+.cards7{
+    height: 180px;
+    width: 300px;
+    margin-left: 30px;
+}
+.cards8{
+    height: 180px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+/*Explore Our Online Degree Programs*/
+.eoodp{
+    height: 700px;
+    width: 95%;
+    background-color: white;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+.heading3r{
+    height: 5px;
+    width: 95%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.organisationlist{
+    height: 50px;
+    width: 95%;
+    background-color: white;
+}
+.heading3{
+    align-self: center;
+    width: 95%;
+}
+.heading3r{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px; 
+    color: #1a325d;
+    justify-content: left;
+}
+.rightpara3{
+    text-align: right;
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+}
+/*cards for courses*/
+.row1stfor3rdpart{
+    height: 400px;
+    width:1700px;
+    margin-top: 50px;
+    display: flex;
+    glyph-orientation-vertical: deg;
+}
+.div1{
+    height: 400px;
+    width:300px;
+    background-color: #0F385F;
+    background-image: url(slidephoto1.png);
+    background-size: 100% 100%;
+}
+.div2{
+    height: 400px;
+    width:300px;
+    background-color: #0F385F;
+    background-image: url(slidephoto2.png);
+    background-size: 100% 100%;
+    margin-left: 50px;
+}
+.div3{
+    height: 400px;
+    width:300px;
+    background-color: #0F385F;
+    background-image: url(slidephoto3.png);
+    background-size: 100% 100%;
+    margin-left: 50px;
+}
+.div4{
+    height: 400px;
+    width:300px;
+    background-color: #0F385F;
+    background-image: url(slidephoto4.png);
+    background-size: 100% 100%;
+    margin-left: 50px;
+}
+.div5{
+    height: 400px;
+    width:300px;
+    background-color: #0F385F;
+    background-image: url(slidephoto5.png);
+    background-size: 100% 100%;
+    margin-left: 50px;
+}
+.apply_now2{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0F385F;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 600px;
+    border: 2px solid #1A325D;
+}
+.apply_now2 :hover{
+    background-color: #1A325D;
+    color: white;
+}
+/* meet top ranked faculty*/
+.whitebox2{
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 96%;
+    border-radius: 20px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.144);
+}
+.trc{
+    height: 600px;
+    width: 96%;
+    background-color: white;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.heading4r{
+    height: 5px;
+    width: 95%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.heading4{
+    align-self: center;
+    width: 95%;
+}
+.heading4r{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px; 
+    color: #1a325d;
+    justify-content: left;
+}
+.rightpara4{
+    text-align: left;
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+}
+/*slideshow option for edoop section*/
+.slideshow{
+    height: 500px;
+    width: auto;
+    margin: auto;
+    overflow-x: scroll;
+}
+/*3 front main top ranked faculity*/
+.row1stfor4rdpart{
+height: 150px;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+margin-top: 30px;
+}
+/*Hear what our students have to say*/
+.shts{
+    height: 600px;
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.heading5r{
+    height: 5px;
+    width: 95%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.organisationlist{
+    height: 50px;
+    width: 95%;
+    background-color: white;
+}
+.heading5{
+    align-self: center;
+    width: 95%;
+}
+.heading5r{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px; 
+    color: #1a325d;
+    justify-content: left;
+}
+.rightpara5{
+    text-align: left;
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+}
+.maindiv5th{
+    height: 290px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 20px;
+    
+}
+.box5th1long{
+    height: 290px;
+    width: 770px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    border: 0.7px solid #0F385F;
+}
+.box5th2small{
+    height: 290px;
+    width: 400px;
+    background-color: #FFC907;
+    margin-left: 60px;
+    border-radius: 20px;
+    display: flex;
+    background-image: url(hwoshts1.png);
+}
+.maindiv5th2row{
+    height: 290px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 20px;
+}
+.box5th3small{
+    height: 290px;
+    width: 400px;
+    background-color: #FFC907;
+    border-radius: 20px;
+    display: flex;
+    background-image:url(hwoshts2.png);
+}
+.box4thlong{
+    height: 290px;
+    width: 770px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    border: 0.7px solid #0F385F;
+    margin-left: 60px;
+}
+/*boxwafos section a box*/
+.boxwafos{
+    height: 250px;
+    width: 98%;
+    border: 2px solid black;
+    margin-top: 100px;
+    border-radius: 20px;
+    display: flex;
+}
+.boxleft{
+    width: 50%;
+    height: 250px;
+    background-color: #0F385F;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.boxright{
+    width:50%;
+    height: 250px;
+    background-color: yellow;
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.call_request{
+    height: 40px;
+    width: 180px;
+    border-radius: 25px;
+    border:1px solid white;
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+    margin-left: 50px;
+}
+.call_request:hover{
+    background-color: white;
+    color: #0F385F;
+}
+.boxright{
+    background-image: url(https://amityonline.com/_next/image?url=https:%2F%2Famityonline.com%2F_s%2Fdoctor_her_patient_choosing_mammary_prosthesis_office_87122a4fab_57ff2f2d07.webp&w=3840&q=75);
+    background-size: 100% 100%;
+}
+/*new div*/
+.wotns{
+    height: 600px;
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+.heading6r{
+    height: 5px;
+    width: 95%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.organisationlist{
+    height: 50px;
+    width: 95%;
+    background-color: white;
+}
+.heading6{
+    align-self: center;
+    width: 95%;
+}
+.heading6r{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px; 
+    color: #1a325d;
+    justify-content: left;
+}
+.rightpara6{
+    text-align: left;
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+}
+/*downboxes (slideoption)*/
+.slideshoww{
+    height: 470px;
+    width: 1370px;
+    margin-top: 30px;
+    display: flex;
+    overflow-x: scroll;
+}
+.row1wotns{
+    height: 470px;
+    width: 100%;
+    display: flex;
+}
+/*box 1*/
+.div1wotns{
+    height:450px;
+    width: 320px;
+    border-radius: 12px;
+    border: 1px solid #0F385F ;
+}
+.wotnsimg1{
+    height: 300px;
+    width: 320px;
+    background-image: url(https://amityonline.com/_s/amityonline_News1_f6db927ed4.webp);
+    background-size: 100% 100%;
+    border-radius: 12px;
+    border: 0.7px solid #0F385F ;
+    
+}
+/*box2*/
+.div2wotns{
+    height:450px;
+    width: 320px;
+    border-radius: 12px;
+    border: 1px solid #0F385F ;
+    margin-left: 30px;
+}
+.wotnsimg2{
+    height: 300px;
+    width: 320px;
+    background-image: url(https://static.amityonline.com/_s/Amity_University_Online_expands_with_new_age_online_degree_programs_to_elevate_Indian_Talent_e7f5dd2062_d507a027e9.webp);
+    background-size: 100% 100%;
+    border-radius: 12px;
+    border: 0.7px solid #0F385F ;
+}
+/*box3*/
+.div3wotns{
+    height:450px;
+    width: 320px;
+    border-radius: 12px;
+    border: 1px solid #0F385F ;
+    margin-left: 30px;
+}
+.wotnsimg3{
+    height: 300px;
+    width: 320px;
+    background-image: url(https://static.amityonline.com/_s/Whats_App_Image_2024_07_17_at_1_17_36_PM_1_20240717131857_original_image_2_aa6f8b8ffa_3d301358e9.webp);
+    background-size: 100% 100%;
+    border-radius: 12px;
+    border: 0.7px solid #0F385F ;
+}
+/*box4*/
+.div4wotns{
+    height:450px;
+    width: 320px;
+    border-radius: 12px;
+    border: 1px solid #0F385F ;
+    margin-left: 30px;
+}
+.wotnsimg4{
+    height: 300px;
+    width: 320px;
+    background-image: url(https://static.amityonline.com/_s/city_committed_education_collage_concept_2_de14d8e0fd_255f49212c.webp);
+    background-size: 100% 100%;
+    border-radius: 12px;
+    border: 0.7px solid #0F385F ;
+}
+/*box5*/
+.div5wotns{
+    height:450px;
+    width: 320px;
+    border-radius: 12px;
+    border: 1px solid #0F385F ;
+    margin-left: 30px;
+}
+.wotnsimg5{
+    height: 300px;
+    width: 320px;
+    background-image: url(https://static.amityonline.com/_s/career_03ff66e7f4.webp);
+    background-size: 100% 100%;
+    border-radius: 12px;
+    border: 0.7px solid #0F385F ;
+}
+/*box6*/
+.div6wotns{
+    height:450px;
+    width: 320px;
+    border-radius: 12px;
+    border: 1px solid #0F385F ;
+    margin-left: 30px;
+}
+.wotnsimg6{
+    height: 300px;
+    width: 320px;
+    background-image: url(https://www.financialexpress.com/wp-content/uploads/2023/05/Untitled-design-2023-05-08T145044.305.jpg?w=1024);
+    background-size: 100% 100%;
+    border-radius: 12px;
+    border: 0.7px solid #0F385F ;
+}
+/*box7*/
+.div7wotns{
+    height:450px;
+    width: 320px;
+    border-radius: 12px;
+    border: 1px solid #0F385F ;
+    margin-left: 30px;
+}
+.wotnsimg7{
+    height: 300px;
+    width: 320px;
+    background-image: url(https://img.etimg.com/thumb/msid-100075166,width-650,height-488,imgsize-597042,resizemode-75/digital-learning.jpg);
+    background-size: 100% 100%;
+    border-radius: 12px;
+    border: 0.7px solid #0F385F ;
+}
+/*box8*/
+.div8wotns{
+    height:450px;
+    width: 320px;
+    border-radius: 12px;
+    border: 1px solid #0F385F ;
+    margin-left: 30px;
+}
+.wotnsimg8{
+    height: 300px;
+    width: 320px;
+    background-image: url(https://static.amityonline.com/_s/city_committed_education_collage_concept_1_2c9b7efc26_6f07e314e0.webp);
+    background-size: 100% 100%;
+    border-radius: 12px;
+    border: 0.7px solid #0F385F ;
+}
+/*box9*/
+.div9wotns{
+    height:450px;
+    width: 320px;
+    border-radius: 12px;
+    border: 1px solid #0F385F ;
+    margin-left: 30px;
+}
+.wotnsimg9{
+    height: 300px;
+    width: 320px;
+    background-image: url(https://static.amityonline.com/_s/online_edu_6d08f966ab.avif);
+    background-size: 100% 100%;
+    border-radius: 12px;
+    border: 0.7px solid #0F385F ;
+}
+
+/*Latest blog from Amity Online’s world*/
+
+.lbfaow{
+    height: 600px;
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+.heading7r{
+    height: 5px;
+    width: 95%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.organisationlist{
+    height: 50px;
+    width: 95%;
+    background-color: white;
+}
+.heading7{
+    align-self: center;
+    width: 95%;
+}
+.heading7r{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px; 
+    color: #1a325d;
+    justify-content: left;
+}
+.rightpara7{
+   height: 50px;
+   width: 150px;
+   background-color:white;
+   justify-self: end;
+   border-radius: 40px;
+   border: solid #0F385F 0.7px;
+   justify-content:center;
+   align-items:center;
+}
+
+  
